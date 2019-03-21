@@ -1,0 +1,64 @@
+.header {
+    width: 100vw;
+    height: 15vh;
+    background-color: #424249;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.app-title {
+    width: 30vw;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#piggy-bank {
+    width: 20%;
+    height: auto;
+}
+#app-name {
+    color: #FFFDFC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3vw;
+}
+#budget-total {
+    /* border: 1px solid white; */
+    width: 25vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFDFC;
+    font-size: 1.5vw;
+}
+.main {
+    width: 100vw;
+    height: 85vh;
+    background-color: #FFFDFC;
+    padding-top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+#monthly-expenses {
+    width: 25%;
+    height: 30%;
+    /* padding-bottom: 0; */
+    background-color: #EFE8E1;
+    border-radius: 10px;
+    padding: 1vw 2.5vh;
+    /* display: flex; */
+    
+}
+#add-bill {
+    width: 25%;
+    height: 40%;
+    /* padding-bottom: 1%; */
+    background-color: #54D2E5;
+    border-radius: 10px;
+    padding: 1vw 2.5vh;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #424249;
+    font-size: 1.5vw;
+}
