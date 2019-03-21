@@ -19,46 +19,56 @@
 }
 #app-name {
     color: #FFFDFC;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-family: 'Righteous', cursive;
     font-size: 3vw;
 }
 #budget-total {
     /* border: 1px solid white; */
-    width: 25vw;
-    font-family: Arial, Helvetica, sans-serif;
+    width: 20vw;
+    font-family: 'Roboto', sans-serif;
     color: #FFFDFC;
     font-size: 1.5vw;
 }
 .main {
     width: 100vw;
-    height: 85vh;
+    height: auto;
     background-color: #FFFDFC;
     padding-top: 10vh;
     display: flex;
     justify-content: space-evenly;
 }
-#monthly-expenses {
+h3 {
+    font-family: 'Righteous', cursive;
+    color: #424249;
+    font-size: 1.8vw;
+}
+.monthly-expenses-container {
     width: 25%;
-    height: 30%;
-    /* padding-bottom: 0; */
+    height: 18vh;
     background-color: #EFE8E1;
     border-radius: 10px;
     padding: 1vw 2.5vh;
     /* display: flex; */
     
 }
-#add-bill {
+.add-bill-container {
     width: 25%;
-    height: 40%;
-    /* padding-bottom: 1%; */
+    height: 25vh;
     background-color: #54D2E5;
     border-radius: 10px;
     padding: 1vw 2.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: #424249;
-    font-size: 1.5vw;
+#add-item {
+    border: none;
+    width: 90%;
+    height: 20%;
+    font-family: 'Righteous', cursive;
+    color: #FFFDFC;
+    font-size: 1.8vw;
+    background-color: #424249;
+    align-self: center;
 }
+
